@@ -1,0 +1,72 @@
+{
+  "index.html": {
+    "resources": [
+      "img/guide/guide05.gif",
+      "img/guide/guide03.gif",
+      "js/mui.min.js",
+      "img/guide/guide01.gif",
+      "css/mui.min.css",
+      "img/guide/guide04.gif",
+      "img/guide/guide02.gif",
+      "list.html",
+      "img/guide/footer_09.gif",
+      "img/guide/footer_07.gif",
+      "img/guide/footer_03.gif",
+      "fonts/mui.ttf",
+      "img/guide/footer_05.gif",
+      "js/bootstrap.js",
+      "js/jquery-2.1.4.min.js",
+      "css/bootstrap.css",
+      "img/guide/main-img_03.gif",
+      "img/guide/main-img_09.gif",
+      "img/guide/main-img_06.gif",
+      "img/guide/aside-footer_01.jpg",
+      "img/guide/a2.jpg",
+      "css/main.css",
+      "img/guide/western_01.jpg",
+      "img/guide/korea_02.jpg",
+      "img/guide/japan_01.jpg",
+      "img/guide/koreas_04.jpg",
+      "img/guide/japan_03.jpg",
+      "img/guide/western_03.jpg",
+      "img/guide/japan_02.jpg",
+      "img/guide/korea_01.jpg",
+      "img/guide/western_02.jpg",
+      "img/guide/korea_03.jpg",
+      "img/guide/koreas_06.jpg",
+      "img/guide/koreas_05.jpg"
+    ],
+    "refer": [
+      "subassembly/guide.html",
+      "subassembly/channel.html"
+    ]
+  },
+  "subassembly/guide.html": {
+    "resources": [
+      "img/guide/guide03.gif",
+      "img/guide/guide01.gif",
+      "img/guide/guide04.gif",
+      "js/mui.js",
+      "img/guide/guide02.gif",
+      "img/guide/guide06.png",
+      "css/mui.min.css",
+      "img/guide/guide07.png"
+    ],
+    "refer": []
+  },
+  "subassembly/channel.html": {
+    "resources": [
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "js/mui.js",
+      "mv/Tim Mcgraw - Still.mp4",
+      "mv/Still03.jpg",
+      "css/bootstrap.css",
+      "js/bootstrap.js",
+      "js/jquery-2.1.4.min.js",
+      "img/guide/a2.jpg",
+      "fonts/glyphicons-halflings-regular.woff2",
+      "css/channel.css"
+    ]
+  }
+}

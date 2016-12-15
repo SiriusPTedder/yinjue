@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>main</title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+
+	<body>
+		<div class="mui-off-canvas-wrap mui-draggable">
+			<div class="mui-inner-wrap">
+				<!-- 菜单容器 -->
+				<aside class="mui-off-canvas-left" id="offCanvasSide">
+					<div class="mui-scroll-wrapper">
+						<div id="sheet" class="mui-popover mui-popover-bottom mui-popover-action ">
+							<!-- 可选择菜单 -->
+							<ul class="mui-table-view">
+								<li class="mui-table-view-cell">
+									<a href="#">个人信息设置</a>
+								</li>
+								<li class="mui-table-view-cell">
+									<a href="#">下载设置</a>
+								</li>
+								<li class="mui-table-view-cell">
+									<a href="#">功能设置</a>
+								</li>
+								<li class="mui-table-view-cell">
+									<a href="#">安全设置</a>
+								</li>
+								<li class="mui-table-view-cell">
+									<a href="#">其他设置</a>
+								</li>
+							</ul>
+							<!-- 取消菜单 -->
+							<ul class="mui-table-view">
+								<li class="mui-table-view-cell">
+									<a href="#sheet"><b>取消</b></a>
+								</li>
+							</ul>
+						</div>
+						<nav class="mui-bar mui-bar-tab" style="background:black">
+							<a class="mui-tab-item mui-active">
+								<span class="mui-icon mui-icon-email"><span class="badge">5</span></span>
+								<span class="mui-tab-label">信息</span>
+
+							</a>
+							<a  href="#sheet" class="mui-tab-item">
+								<span class="mui-icon mui-icon-gear"></span>
+								<span class="mui-tab-label">设置</span>
+							</a>
+						</nav>
+						<div class="mui-scroll">
+							<!-- 菜单具体展示内容 -->
+							<header class="mui-bar mui-bar-nav offCanvasSideH clear">
+								<div class="offCanvasSideH_left clear">
+									<img src="img/guide/a2.jpg" alt="" class="img-circle" width="80px" height="80px" />
+									<div class="offCanvasSideH_lR">
+										<h3>SPTL</h3>
+										<p>积分：300</p>
+									</div>
+								</div>
+								<div class="offCanvasSide_right">
+									<p>	<a href="#">签到</a></p>
+								</div>
+							</header>
+							<div class="mui-content offCanvasSide-footer">
+								<ul class="nav nav-pills nav-stacked">
+									<li>
+										<a href="#">首页</a>
+									</li>
+									<li>
+										<a href="#">频道</a>
+									</li>
+									<li>
+										<a href="#">音爵榜单</a>
+									</li>
+									<li>
+										<a href="#">音爵影单</a>
+									</li>
+									<li>
+										<a href="#">下载管理</a>
+									</li>
+									<li>
+										<a href="#">订阅更新</a>
+									</li>
+									<li>
+										<a href="#">播放历史</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</aside>
+				<header class="mui-bar mui-bar-nav" style="background:black">
+					<a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left" href="#offCanvasSide"></a>
+					<h1 class="mui-title" style="color:white">首页</h1>
+					<div id="ul_back">
+						<div class="mui-segmented-control">
+							<a class="mui-control-item mui-active" href="#inland">内地</a>
+							<a class="mui-control-item" href="#western">欧美</a>
+							<a class="mui-control-item" href="#HKTW">港台</a>
+							<a class="mui-control-item" href="#korea">韩国</a>
+							<a class="mui-control-item" href="#japan">日本</a>
+						</div>
+					</div>
+				</header>
+				<nav class="mui-bar mui-bar-tab" style="background:black">
+					<a class="mui-tab-item mui-active">
+						<span class="mui-icon">
+	    		        	<img src="img/guide/footer_03.gif" width="24px" height="24px" alt="" />
+	    		        </span>
+						<span class="mui-tab-label">官方推荐</span>
+					</a>
+					<a class="mui-tab-item">
+						<span class="mui-icon">
+	    		        	<img src="img/guide/footer_05.gif" width="24px" height="24px" alt="" />
+	    		        </span>
+						<span class="mui-tab-label">MV首播</span>
+					</a>
+					<a class="mui-tab-item">
+						<span class="mui-icon ">
+	    		        	<img src="img/guide/footer_07.gif" width="24px" height="24px" alt="" />
+	    		        </span>
+						<span class="mui-tab-label">正在流行</span>
+					</a>
+					<a class="mui-tab-item">
+						<span class="mui-icon">
+	    		        	<img src="img/guide/footer_09.gif" width="24px" height="24px" alt="" />
+	    		        </span>
+						<span class="mui-tab-label">音爵节目</span>
+					</a>
+				</nav>
+				<div class="mui-content mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<div class="mui-content-padded" id="tab-cl">
+							<div id="inland" class="mui-control-content mui-active">
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/main-img_03.gif" alt="" /></a>
+								<a href="#"><img class="img-responsive" src="img/guide/main-img_06.gif" alt="" /></a>
+								<a href="#"><img class="img-responsive" src="img/guide/main-img_09.gif" alt="" /></a>
+								<a href="#"><img class="img-responsive" src="img/guide/main-img_03.gif" alt="" /></a>
+								<a href="#"><img class="img-responsive" src="img/guide/main-img_06.gif" alt="" /></a>
+								<a href="#"><img class="img-responsive" src="img/guide/main-img_09.gif" alt="" /></a>
+								<a href="#"><img class="img-responsive" src="img/guide/main-img_03.gif" alt="" /></a>
+							</div>
+							<div id="western" class="mui-control-content">
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/western_01.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/western_03.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/western_02.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/western_01.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/western_03.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/western_02.jpg" alt="" /></a>
+							</div>
+							<div id="HKTW" class="mui-control-content">
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/korea_01.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/korea_03.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/korea_02.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/korea_01.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/korea_03.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/korea_02.jpg" alt="" /></a>
+							</div>
+							<div id="korea" class="mui-control-content">
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/koreas_04.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/koreas_05.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/koreas_06.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/koreas_04.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/koreas_05.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/koreas_06.jpg" alt="" /></a>
+							</div>
+							<div id="japan" class="mui-control-content">
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/japan_01.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/japan_02.jpg" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/japan_03.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/japan_01.jpg" alt="" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/japan_02.jpg" /></a>
+								<a href="subassembly/channel.html" id="openSheet"><img class="img-responsive" src="img/guide/japan_03.jpg" alt="" /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mui-off-canvas-backdrop"></div>
+			</div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+
+		<script type="text/javascript" charset="utf-8">
+			mui.init( //{//设置嵌套页
+				//    		subpages:[{
+				//    		url:"list.html",
+				//    		id:"list.html",
+				//    		styles:{
+				//    			top:'45px',
+				//    			bottom:'0px'
+				//    		}
+				//    		}];//里面嵌套list页面会导致右滑界面只显示顶部
+			)
+			mui.plusReady(function() {
+
+				/**
+				 * 获取本地存储中launchFlag的值
+				 * http://www.html5plus.org/doc/zh_cn/storage.html#plus.storage.getItem
+				 * 若存在，说明不是首次启动，直接进入首页；
+				 * 若不存在，说明是首次启动，进入引导页；
+				 */
+				var launchFlag = plus.storage.getItem("launchFlag");
+				if(launchFlag) {
+					mui.openWindow({
+						url: "main.html",
+						id: "main",
+						extras: {
+							mark: "index" //额外的参数，仅仅是个标识，实际开发中不用；
+						}
+					});
+				} else {
+					mui.openWindow({
+						url: "subassembly/guide.html",
+						id: "guide"
+					});
+				}
+				//				初始化滚动事件
+				mui(".mui-scroll-wrapper").scroll();
+			});
+			//			列表点击事件
+			mui('#tab-cl').on('tap', 'a', function() {
+				var id = this.getAttribute('href');
+				var href = this.href;
+				var type = this.getAttribute("open-type");
+				mui.openWindow({
+					id: id,
+					url: this.href,
+				})
+			})
+		</script>
+	</body>
+
+</html>

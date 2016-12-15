@@ -1,0 +1,95 @@
+/*频道头部设置*/
+			.mui-bar-nav {
+				background: black;
+			}
+			
+			.mui-bar-nav h1 {
+				color: #169171
+			}
+			/*视频设置*/
+			.video {
+				background: #333333;
+				padding: 3px;
+				display: block;
+			}
+			
+			.video video {
+				max-width: 100%;	
+				margin:0 auto;
+			}
+			/*导航部分设置*/
+			#mv_describe ul {
+				width: 280px;
+				margin: 0 auto;
+			}
+			
+			.mui-scroll #mv_describe ul li a {
+				color: #169171;
+				border: 1px solid #169171;
+				margin: 0px;
+			}
+			
+			#mv_describe .nav-tabs> li.active> a,
+			#mv_describe .nav-tabs> li.active> a:hover,
+			#mv_describe .nav-tabs> li.active> a:focus {
+				background: #169171;
+				color: white;
+				border: 1px solid black;
+				border-radius: 6px;
+			}
+			/*MV描述区设置*/
+			#describe{
+				padding:20px;
+				
+			}
+			#describe .describe-img{
+				width:220px;
+			}
+			#describe .describe-img img{
+				float:left;
+			}
+			#describe .describe-img-right{
+				padding-top:26px;
+				float:right;
+			}
+			#describe .describe-img-right p{
+				color:#169171
+			}
+			.clear:after{
+				content:'';
+				display:block;
+				clear:both;
+			}
+			/*评论区设置*/
+			#comment .comment-01{
+				padding:20px;
+				border-top:1px solid #4d4d4d;
+			}
+			 #comment .comment-01-img img{
+				border-radius:50%;
+				
+			}
+			#comment .comment-01-img{
+				color:#169171
+			}
+			#comment .comment-01-footer p{
+				float:left;
+			}
+			#comment .comment-01-footer div{
+				float:right;
+			}
+			#comment .comment-02{
+				padding:20px 20px 48px 20px;
+				border-top:1px solid #4d4d4d;
+			}
+			#comment .comment-02-footer p{
+				float:left;
+			}
+			#comment .comment-02-footer div{
+				float:right;
+			}
+			/*底部弹出框设置*/
+			#popover{
+			height: 100px;
+			width:200px;
+		}

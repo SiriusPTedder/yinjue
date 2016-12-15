@@ -1,0 +1,112 @@
+/*总体设置*/
+		    .clear {
+				content: '';
+				display: block;
+				clear: both;
+			}
+			/*首页设置*/
+			#ul_back {
+				background: black;
+				padding: 4px;
+			}
+			
+			#ul_back a:hover {
+				text-decoration: none;
+			}
+			
+			.mui-off-canvas-wrap header {
+				height: 90px;
+			}
+			
+			.mui-off-canvas-wrap header .mui-segmented-control {
+				top: 44px;
+			}
+			
+			.mui-off-canvas-wrap .mui-content{
+				padding-top: 90px;
+			}
+			/*首页视频图片设置*/
+			
+			.mui-scroll .mui-content-padded {
+				margin: 0px;
+			}
+			
+			.mui-scroll .mui-content-padded a img {
+				margin-top: 3px;
+			}
+			/*滚动事件设置*/
+			
+			.mui-scroll-wrapper {
+				height: 100%;
+			}
+			/*侧滑栏设置*/
+			/*侧滑栏头部设置*/
+			.mui-inner-wrap aside {
+				background: #269ABC
+			}
+			.offCanvasSideH {
+				height: 120px;
+				background: #269ABC
+			}
+			.mui-scroll header .offCanvasSideH_left img {
+				float: left;
+				vertical-align: middle;
+				margin: 8px 5px 0px 0px;
+			}
+			
+			.mui-scroll header .offCanvasSideH_left .offCanvasSideH_lR {
+				float: right;
+			}
+			
+			.mui-scroll header .offCanvasSideH_left {
+				float: left;
+			}
+			
+			.mui-scroll header .offCanvasSide_right {
+				float: right;
+				border: 1px solid black;
+				width: 60px;
+				height: 20px;
+				text-align: center;
+				border-radius: 10px;
+				margin-top: 40px;
+			}
+			/*侧滑栏中间列表设置*/
+			.mui-inner-wrap .offCanvasSide-footer {
+				padding-top: 92px;
+			}
+			
+			.mui-inner-wrap .nav li {
+				background-color: rgba(65, 55, 52, 0.5);
+			}
+			.mui-inner-wrap .nav li:hover a {
+				color: #269ABC;
+			}
+			
+			.mui-inner-wrap .offCanvasSide-footer .nav {
+				background: #269ABC;
+			}
+			.mui-inner-wrap .nav li a,
+			.mui-scroll header .offCanvasSideH_left h3,
+			.mui-scroll header .offCanvasSideH_left p,
+			.mui-scroll header .offCanvasSide_right p {
+				color: white;
+			}
+			.mui-scroll .offCanvasSide-footer .nav li {
+				line-height: 37px;
+			}
+			/*侧滑栏底部设置*/
+			.mui-scroll-wrapper .mui-bar-tab {
+				height: 50px;
+			}
+			
+			.mui-scroll-wrapper .mui-icon-email {
+				position: relative;
+			}
+			
+			.mui-scroll-wrapper .badge {
+				background: red;
+				position: absolute;
+				right: -14px;
+				top: -5px;
+			}
